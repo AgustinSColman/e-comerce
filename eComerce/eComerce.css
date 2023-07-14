@@ -1,0 +1,117 @@
+body {
+  margin: 0;
+  /* color: white; */
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serifz;
+}
+
+ul {
+  margin: 0;
+}
+
+header {
+  /* border: 1px solid magenta; */
+  width: 100%;
+  height: auto;
+}
+
+header nav {
+  width: 100%;
+  background: #48d1cc;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+header nav ul {
+  /*   border: 1px solid blue; */
+  list-style: none;
+  padding: 0;
+  width: 60%;
+
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+/* header nav ul li {
+  /*   border: 1px solid red; }*/
+
+header nav ul li a {
+  text-decoration: none;
+  /* border: 1px solid white; */
+  width: 115px;
+  height: 54px;
+  display: block;
+  background-color: crimson;
+  color: white;
+
+  text-align: center;
+  line-height: 54px;
+}
+
+header > div {
+  background-color: #555;
+  width: 100%;
+  height: 108px;
+
+  display: flex;
+  justify-content: start;
+  align-items: start;
+}
+
+#logo {
+  height: 54px;
+  width: 10%;
+  background-color: yellow;
+  text-align: center;
+  line-height: 54px;
+}
+
+#barraBusqueda {
+  background-color: #ffd700;
+  width: 85%;
+  height: 54px;
+  text-align: center;
+  line-height: 54px;
+}
+
+#botonCarrito {
+  background-color: #daa520;
+  width: 5%;
+  height: 54px;
+}
+
+#barraBusqueda form label {
+  background-color: #adff2f;
+  padding: 2px;
+}
+
+#barraBusqueda form input {
+  background-color: #ff1493;
+  padding: 2px;
+  width: 50%;
+}
+
+#barraBusqueda form input[type="submit"] {
+  background-color: #2f4f4f;
+  padding: 2px;
+  color: white;
+  width: 60px;
+}
+
+main {
+  height: 500px;
+  text-align: center;
+background-color: grey;
+}
+
+footer {
+  background-color: blueviolet;
+  color: white;
+  height: 100px;
+  text-align: center;
+  line-height: 100px;
+  font-size: 22px;
+}
